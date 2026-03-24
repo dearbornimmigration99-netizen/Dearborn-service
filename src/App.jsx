@@ -67,13 +67,13 @@ function App() {
 
             {/* Hero Banner */}
             <div className="hero-banner">
-              <img src="/assets/hero.jpeg" alt="Dearborn Immigration Services Hero" className="hero-image" />
+              <img src={`${import.meta.env.BASE_URL}assets/hero.jpeg`} alt="Dearborn Immigration Services Hero" className="hero-image" />
             </div>
 
             {/* Provider Header Stacked */}
             <div className="provider-header-stacked">
               <div className="avatar-container-stacked">
-                <img src="/assets/profile.png" alt="Ali Yunus - Dearborn Immigration Services" className="avatar-photo" />
+                <img src={`${import.meta.env.BASE_URL}assets/profile.png`} alt="Ali Yunus - Dearborn Immigration Services" className="avatar-photo" />
               </div>
               <div className="provider-title-row">
                 <h1>Dearborn Immigration Service</h1>
@@ -205,7 +205,7 @@ function App() {
           <aside className="provider-sidebar">
             <div className="sidebar-card">
               <div className="sidebar-photo-wrap">
-                <img src="/assets/profile.png" alt="Ali" className="sidebar-photo" />
+                <img src={`${import.meta.env.BASE_URL}assets/profile.png`} alt="Ali" className="sidebar-photo" />
               </div>
               <div className="sidebar-name">Ali </div>
               <div className="sidebar-title">Immigration Consultant</div>
